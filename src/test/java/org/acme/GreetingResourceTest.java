@@ -15,7 +15,7 @@ class GreetingResourceTest {
           .when().get("/hello")
           .then()
              .statusCode(200)
-             .body(startsWith("Hello RESTEasy"));
+             .body(startsWith("Hello OpenShift RESTEasy"));
     }
 
 }
